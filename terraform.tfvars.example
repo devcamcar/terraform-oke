@@ -1,9 +1,12 @@
 ### Use `gen-api-keys.sh` to generate an OCI API keypair.
 
-### Authentication details
+### Authentication details.
 oci_tenancy_id                = "<tenant OCID>"
 oci_compartment_id            = "<compartment OCID>"
 oci_user_id                   = "<user OCID>"
 oci_fingerprint               = "<api key fingerprint>"
 oci_private_key_path          = "<path to api private key>"
+
+### Cluster configuration     
+cluster_name                  = "<my cluster name>"
 node_pool_ssh_public_key_path = "<path to ssh public key>"
